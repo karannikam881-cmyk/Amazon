@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background: #eaeded;
+  font-family: Arial;
+}
+.navbar-main {
+  background: #131921;
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+.search-wrap {
+  display: flex;
+  flex: 1;
+  max-width: 800px;
+}
+.search-wrap input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+.search-wrap select,
+.search-wrap button {
+  border: none;
+  padding: 10px;
+}
+.search-wrap button {
+  background: #febd69;
+}
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+.nav-links a,
+.panel a {
+  color: #fff;
+  text-decoration: none;
+}
+.panel {
+  background: #232f3e;
+  padding: 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.panel a {
+  margin-right: 18px;
+}
+.sidebar p,
+.sidebar h3 {
+  font-size: 16px !important;
+  word-break: break-word;
+}
+.product,
+.launchcard,
+.supportcard,
+.cartbox,
+.subtotal,
+.section {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+img {
+  max-width: 100%;
+}
